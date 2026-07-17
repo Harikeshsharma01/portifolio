@@ -67,22 +67,46 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: 'Study Notion Ed-Tech (E-learning)',
-    description: 'A responsive web application built with React and Tailwind CSS featuring real-time data updates and a clean modern interface.',
-    image: '/images/1.png',
-    tags: ['React', 'Tailwind', 'API'],
+    title: 'StudyNotion - EdTech Platform',
+    description:
+      'A full-stack MERN-based e-learning platform where instructors can create courses, students can enroll, securely purchase courses using Razorpay, and learn through an intuitive dashboard.',
+    image: '/images/studynotion.png',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Razorpay'],
   },
   {
-    title: 'Project Two',
-    description: 'Full-stack platform with authentication, database integration, and an intuitive dashboard for managing user content.',
-    image: '/images/2.png',
-    tags: ['Node.js', 'SQL', 'Express'],
+    title: 'Course Manager',
+    description:
+      'A MERN stack application for managing courses with complete CRUD operations, image uploads using Cloudinary, and a responsive dashboard for administrators.',
+    image: '/images/coursemanager.png',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Cloudinary'],
   },
   {
-    title: 'Project Three',
-    description: 'Dynamic collaboration tool with real-time communication features, file sharing, and responsive cross-device support.',
-    image: '/images/3.png',
-    tags: ['JavaScript', 'WebSockets', 'CSS'],
+    title: 'Portfolio Website',
+    description:
+      'A modern, fully responsive personal portfolio showcasing projects, technical skills, achievements, certifications, and contact information with smooth animations.',
+    image: '/images/portfolio.png',
+    tags: ['React', 'Tailwind CSS', 'Framer Motion'],
+  },
+  {
+    title: 'Blog Application',
+    description:
+      'A full-stack blog platform with user authentication, CRUD functionality, rich text editing, and category-based post management. Users can create, edit, delete, and browse blog posts through a responsive interface.',
+    image: '/images/blog-app.png',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+  },
+  {
+    title: 'Restaurant Menu Management System',
+    description:
+      'A web-based restaurant menu management system that allows administrators to add, update, delete, and organize menu items with categories, pricing, and image management through an easy-to-use dashboard.',
+    image: '/images/restaurant-menu.png',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'CRUD'],
+  },
+  {
+    title: 'Mental Wellness Prediction System',
+    description:
+      'A machine learning project that predicts student mental wellness risk using survey data and visual analytics to enable proactive support.',
+    image: '/images/mindflow.png',
+    tags: ['Python', 'Machine Learning', 'Pandas', 'Scikit-learn'],
   },
 ];
 

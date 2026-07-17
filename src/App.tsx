@@ -328,7 +328,7 @@ export default function App() {
             <div className="flex flex-wrap gap-4 pt-2">
               <div className="flex flex-wrap gap-4">
                 <a
-    href="/resume1.pdf"
+    href="/images/resume1.pdf"
     download="Harikesh_Sharma_Resume.pdf"
     className="inline-flex items-center gap-2 px-6 py-3 bg-red-500 hover:bg-red-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-red-500/25 hover:shadow-red-400/30 hover:-translate-y-0.5"
   >
@@ -336,7 +336,7 @@ export default function App() {
     Download PDF
   </a>
   <a
-    href="/resume.docx"
+    href="/images/resume.docx"
     download="Harikesh_Sharma_Resume.docx"
     className="inline-flex items-center gap-2 px-6 py-3 bg-teal-500 hover:bg-teal-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-teal-500/25 hover:shadow-teal-400/30 hover:-translate-y-0.5"
   >

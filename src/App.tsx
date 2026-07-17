@@ -326,13 +326,24 @@ export default function App() {
               Passionate about building impactful web experiences — adaptable as water, driven by purpose.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
-              <a
-                href="/resume.docx"
-                download
-                className="inline-flex items-center gap-2 px-6 py-3 bg-teal-500 hover:bg-teal-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-teal-500/25 hover:shadow-teal-400/30 hover:-translate-y-0.5"
-              >
-                <Download size={18} /> Download CV
-              </a>
+              <div className="flex flex-wrap gap-4">
+                <a
+    href="/resume.pdf"
+    download="Harikesh_Sharma_Resume.pdf"
+    className="inline-flex items-center gap-2 px-6 py-3 bg-red-500 hover:bg-red-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-red-500/25 hover:shadow-red-400/30 hover:-translate-y-0.5"
+  >
+    <Download size={18} />
+    Download PDF
+  </a>
+  <a
+    href="/resume.docx"
+    download="Harikesh_Sharma_Resume.docx"
+    className="inline-flex items-center gap-2 px-6 py-3 bg-teal-500 hover:bg-teal-400 text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-teal-500/25 hover:shadow-teal-400/30 hover:-translate-y-0.5"
+  >
+    <Download size={18} />
+    Download DOCX
+  </a>
+</div>
               <button
                 onClick={() => scrollTo('Contact')}
                 className={`inline-flex items-center gap-2 px-6 py-3 font-semibold rounded-xl border transition-all duration-200 hover:-translate-y-0.5 ${

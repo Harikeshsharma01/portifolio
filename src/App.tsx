@@ -108,6 +108,34 @@ const PROJECTS = [
     image: '/images/mindflow.png',
     tags: ['Python', 'Machine Learning', 'Pandas', 'Scikit-learn'],
   },
+    {
+  title: 'Compassion Scorer AI',
+  description:
+    'Developed during the Code 4 Compassion Hackathon, this AI-powered browser extension analyzes fashion brand websites and assigns a compassion score based on publicly available information about animal cruelty, ethical sourcing, and sustainability. The extension helps users make informed purchasing decisions by providing instant brand ratings and AI-generated insights.',
+  image: '/images/compassion-scorer.png',
+  tags: ['React', 'AI', 'Browser Extension', 'Gemini AI', 'JavaScript'],
+},
+    {
+  title: 'Morse Code Communication App',
+  description:
+    'An award-winning mobile application developed for the 20th Avishkar Research Convention, University of Mumbai. Designed to assist individuals with speech impairments, the app converts text into Morse code using visual dot-dash patterns, flashlight blinking, and audio signals, enabling users to communicate effectively through the universal Morse code language.',
+  image: '/images/morsecode.png',
+  tags: [
+    'Flutter',
+    'Dart',
+    'Android',
+    'Morse Code',
+    'Accessibility',
+    'Award Winner'
+  ],
+},
+  {
+  title: 'AI Notes App',
+  description:
+    'A cross-platform AI-powered note-taking application built with Flutter that uses Google Gemini Pro to summarize notes, organize content, and enhance productivity through intelligent text processing.',
+  image: '/images/ai-notes.png',
+  tags: ['Flutter', 'Dart', 'Gemini Pro', 'Firebase', 'AI'],
+},
 ];
 
 const SERVICES = [

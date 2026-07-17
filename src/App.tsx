@@ -98,7 +98,7 @@ const PROJECTS = [
     title: 'Restaurant Menu Management System',
     description:
       'A web-based restaurant menu management system that allows administrators to add, update, delete, and organize menu items with categories, pricing, and image management through an easy-to-use dashboard.',
-    image: '/images/restaurant-menu.png',
+    image: '/images/restaurant-menu.jpg',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'CRUD'],
   },
   {

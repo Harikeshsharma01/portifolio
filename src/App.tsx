@@ -67,7 +67,7 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: 'Project One',
+    title: 'Study Notion Ed-Tech (E-learning)',
     description: 'A responsive web application built with React and Tailwind CSS featuring real-time data updates and a clean modern interface.',
     image: '/images/1.png',
     tags: ['React', 'Tailwind', 'API'],
